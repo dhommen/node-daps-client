@@ -1,0 +1,21 @@
+{
+  "name": "node-daps-client",
+  "version": "0.1.0",
+  "description": "A simple DAPS client to quickly request a DAT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["DAPS", "oauth2", "client", "ids"],
+  "author": "D.Hommen",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "readme-md-generator": "^1.0.0"
+  }
+}
